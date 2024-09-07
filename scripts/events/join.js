@@ -56,9 +56,9 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি 🆂🅷🅰🅺🅸🅻 এর বট তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("🌺🆃🅷🆇🆇 এড দেয়ার জন্য 🌺🌺🌺চলে এসেছি আমি পিচ্চি 🆂🅷🅰🅺🅸🅻 এর বট তোমাদের মাঝে🤭!🌺🌺আমাকে 🇼 🇪 🇱 🇨 🇴 🇲 জানাও🌺আর আমাকে কন্টল করার জন্য আমার বস 🆂🅺 🆂🅷🅰🅺🅸🅻 (🆃🅾🅼) কে এড দেও🌺🄱🄾🅂🅂 🄵🄱 🄻🄸🄽🄺:https://www.facebook.com/GOLAPI.NUNUR.ODHIKARI.TOM.YOUR.NEXT.VATAR", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+🌺🌺🅱🅾🆃 🅲🅾🅽🅽🅴🅲🆃🅴🅳 🆂🆄🅲🅲🅴🆂🆂🅵🆄🅻🌺🌺 !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
@@ -70,7 +70,7 @@ DEVELOPER :🇸 🇭 🇦 🇰 🇮 🇱
 
 🟣Facebook Account Link: 
 
-
+https://www.facebook.com/GOLAPI.NUNUR.ODHIKARI.TOM.YOUR.NEXT.VATAR
 
 🔵WHATSAPP NUMBER: wa.me/+01918546009
 
@@ -81,7 +81,7 @@ DEVELOPER :🇸 🇭 🇦 🇰 🇮 🇱
 });
   }
   else {
-    try {
+    try cesfull
       if (!fs.existsSync(__dirname + `/Nayan/font/Semi.ttf`)) {
         let getfont = (await axios.get(fontlink, { responseType: "arraybuffer" })).data;
         fs.writeFileSync(__dirname + `/Nayan/font/Semi.ttf`, Buffer.from(getfont, "utf-8"));
